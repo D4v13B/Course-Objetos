@@ -7,8 +7,10 @@ public class Account {
   String email;
   String password;
 
-  public Account(String nombre, String document){
+  public Account(String nombre, String document, String email, String password){
     this.name = nombre;
     this.document = document;
+    this.email = email;
+    this.password = password;
   }
 }
